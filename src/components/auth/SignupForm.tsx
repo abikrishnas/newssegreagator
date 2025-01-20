@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Google } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 export const SignupForm = () => {
@@ -75,7 +75,7 @@ export const SignupForm = () => {
           onClick={handleGoogleSignup}
           className="w-full mt-4 flex items-center justify-center gap-2"
         >
-          <Google className="w-5 h-5" />
+          <Mail className="w-5 h-5" />
           Sign up with Google
         </Button>
       </div>
